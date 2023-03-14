@@ -4,7 +4,7 @@ namespace Diaverum.CodeTest.Api.Services;
 
 public class LabResultsParser : ILabResultsParser
 {
-    private readonly CvsParser _parser = new()
+    private readonly CsvParser _parser = new()
     {
         LineCommentToken = "#",
         FieldSeparatorToken = "|",
@@ -44,7 +44,7 @@ public class LabResultsParser : ILabResultsParser
     }
 }
 
-internal class CvsParser
+internal class CsvParser
 {
     private readonly HashSet<string> _keys = new();
     
