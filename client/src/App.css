@@ -8,49 +8,13 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   justify-content: center;
 }
 .app-main {
-  padding: 0 20px;
+  padding: 0 20px 20px 20px;
 }
 
 h2 {
   color: #E86926;
-}
-
-.d-table{
-  padding: 20px;
-  border-collapse: collapse;
-  margin: 25px auto;
-  font-size: 0.9em;
-  font-family: sans-serif;
-  min-width: 400px;
-}
-.d-table thead tr {
-  background-color: #66B5CB;
-  color: #FFF;
-  text-align: left;
-}
-.d-table th,
-.d-table td {
-  padding: 12px 15px;
-  text-align: left;
-}
-
-.d-table tbody tr {
-  border-bottom: 1px solid #dddddd;
-}
-
-.d-table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
-}
-
-.d-table tbody tr:last-of-type {
-  border-bottom: 2px solid #66B5CB;
-}
-
-.d-table tbody tr.active-row {
-  font-weight: bold;
-  color: #66B5CB;
 }

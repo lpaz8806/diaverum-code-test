@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "setup": "npm run setup-server && npm run setup-client && npm run init-env",
+    "setup-server": "dotnet ef database update --project api/Diaverum.CodeTest.Api",
+    "setup-client": "npm install --prefix client",
+    "init-env": "echo REACT_APP_API_URL=\"https://localhost:5001\" > ./client/.env",
+
+    "start-server": "dotnet run --project api/Diaverum.CodeTest.Api",
+    "start-client": "npm run start --prefix client"
+  }
+}

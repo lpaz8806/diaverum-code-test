@@ -1,0 +1,43 @@
+.d-table-container{
+  padding: 0;
+  border-bottom: 2px solid #66B5CB;
+  min-height: 250px;
+  position: relative;
+}
+
+.d-table{
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+}
+
+.d-table thead tr {
+  background-color: #66B5CB;
+  color: #FFF;
+  text-align: left;
+}
+
+.d-table th,
+.d-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.d-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.d-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.d-table tbody tr:last-of-type {
+  border-bottom: 2px solid #66B5CB;
+}
+
+.d-table tbody tr.active-row {
+  font-weight: bold;
+  color: #66B5CB;
+}

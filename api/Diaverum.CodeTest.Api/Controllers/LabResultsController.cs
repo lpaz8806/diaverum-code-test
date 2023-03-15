@@ -1,5 +1,4 @@
 using System.Text;
-using Diaverum.CodeTest.Api.Data;
 using Diaverum.CodeTest.Api.Entities;
 using Diaverum.CodeTest.Api.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -7,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Diaverum.CodeTest.Api.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/v1/[controller]")]
 public class LabResultsController : ControllerBase
 {
     private readonly ILabResultsParser _parser;
