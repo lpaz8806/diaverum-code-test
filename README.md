@@ -24,10 +24,10 @@
    * Run `cd <project-dir>`
    * Run `npm run start-server`
 
-2. To get started with client development:
+2. Start the client:
    * Open a new terminal
    * Run `cd <project-dir>`
-   * Run `npm run start-server`
+   * Run `npm run start-client`
 
 
 ## API ##
